@@ -167,7 +167,27 @@ header .theme-toggler span.active{
     color: black;
     border-radius: var(--border-radius-1);
 }
+.btn {
+    width: 200px;
+    background-color: #7380ec;
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 49px;
+    color: #fff;
+    font-weight: 600;
+    font-size: medium;
+    transition: 0.5s;
+    font-family: 'Poppins', sans-serif;
+  }
+.btn:hover{
+    border-style: solid;
+    border: 5px #7380ec;
+    width: 220px;
+    color: #7380ec;
+    background-color: #d6daff;
 
+}
 /* Profile section  */
 aside .profile{
     margin-top: 2rem;
