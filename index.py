@@ -4,7 +4,7 @@ from flask_bcrypt import Bcrypt
 from googleapiclient.discovery import build
 
 # Your YouTube Data API key
-api_key = 'AIzaSyB58-ZQwCxeTzE3AUGHgLOoqiowjhC-OlM'
+api_key = ''
 app = Flask(__name__)
 bcrypt = Bcrypt(app)
 
